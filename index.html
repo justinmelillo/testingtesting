@@ -6,25 +6,12 @@
     <title>Unity WebGL Player | MoNA</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebSite.json", { onProgress: UnityProgress });
+    </script>
   </head>
-  <body>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-mobile-warning">
-        WebGL builds are not supported on mobile devices.
-      </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">MoNA</div>
-      </div>
-    </div>
+  <body style="margin:0; overflow:hidden">
+    <div id="gameContainer"></div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/webBuild2.loader.js";
@@ -63,7 +50,7 @@
         }, 5000);
       } else {
         canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.height = "540px";
       }
       loadingBar.style.display = "block";
 
