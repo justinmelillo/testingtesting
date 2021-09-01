@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 4166404315
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6af3e18af46602d5fcde28cf27bcf5d7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 24ac0bab6f899fcebb4e818eaf2ee943
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c862c37f48d6b014aab272349433f5d0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 328
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAsssets/mynewbundle/BackRoom.prefab
+Dependencies: []
